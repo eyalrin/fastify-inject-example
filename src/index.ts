@@ -1,1 +1,3 @@
-console.log('Happy developing ✨')
+import { startServer } from "./bootstrap.js";
+
+export const fastifyServer = await startServer();
